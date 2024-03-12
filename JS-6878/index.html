@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="buttons">
+        <div id="tab1-button" onclick="london()" class="city1">London</div>
+        <div id="tab2-button" onclick="paris()" class="city2">Paris</div>
+        <div id="tab3-button" onclick="tokyo()" class="city3">Tokyo</div>
+      </div>
+
+      <div class="london city-content" id="tab1-content">
+        London, Dünyanın en büyük finans merkezlerinden biridir ve dünyanın
+        beşinci büyükşehir bölgesi GSYİH'sine sahiptir.
+      </div>
+      <div class="paris city-content hidden" id="tab2-content">
+        Paris, Fransa'nın başkenti ve 105 kilometrekare (41 milkare)'den fazla
+        alanda 2,175,601 (2018 itibarıyla tahmini nüfus) nüfusu ile en kalabalık
+        şehridir.
+      </div>
+      <div class="tokyo city-content hidden" id="tab3-content">
+        Tokyo 13,453 km2 olup, 38.505.000 milyon nüfuslu megapol bir bölge olan
+        Tokyo dünyanın en büyük kentidir.
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
